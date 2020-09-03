@@ -46,7 +46,7 @@ Root project 'Almost-Famous'
 * [famous-Match 上来就匹配一波, wo就知道你会选我](./famous-match/README.md)
 * [famous-Battle 战个痛快！PentaKill! Legendary!](./famous-battle/README.md)
 * [famous-robot 有人说还缺个客户端? 我是个啥? 啥也不是](./famous-robot/README.md)
-* [famous-static Almost-Famous世界的藏宝图](./famous-static/README.md)
+* [famous-static Almost-Famous世界的藏宝图](static/README.md)
 
 ## 项目架构图
 
@@ -54,7 +54,7 @@ Root project 'Almost-Famous'
 
 ## 项目研发日志更新
 
-* [项目研发进度](./famous-static/doc/almost-famous/progress.md)
+* [项目研发进度](static/doc/almost-famous/progress.md)
 
 ## 快速开始
 
