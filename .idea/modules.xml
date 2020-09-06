@@ -3,13 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Almost-Famous.iml" filepath="$PROJECT_DIR$/.idea/Almost-Famous.iml" />
-      <module fileurl="file://$PROJECT_DIR$/famous-battle/famous-battle.iml" filepath="$PROJECT_DIR$/famous-battle/famous-battle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/famous-cloud/famous-cloud.iml" filepath="$PROJECT_DIR$/famous-cloud/famous-cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/famous-common/famous-common.iml" filepath="$PROJECT_DIR$/famous-common/famous-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/famous-game/famous-game.iml" filepath="$PROJECT_DIR$/famous-game/famous-game.iml" />
-      <module fileurl="file://$PROJECT_DIR$/famous-login/famous-login.iml" filepath="$PROJECT_DIR$/famous-login/famous-login.iml" />
-      <module fileurl="file://$PROJECT_DIR$/famous-match/famous-match.iml" filepath="$PROJECT_DIR$/famous-match/famous-match.iml" />
-      <module fileurl="file://$PROJECT_DIR$/famous-unique/famous-unique.iml" filepath="$PROJECT_DIR$/famous-unique/famous-unique.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afk/afk.iml" filepath="$PROJECT_DIR$/afk/afk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afk/afk-parent.iml" filepath="$PROJECT_DIR$/afk/afk-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/akka/akka-parent.iml" filepath="$PROJECT_DIR$/akka/akka-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/akka/cluster/cluster.iml" filepath="$PROJECT_DIR$/akka/cluster/cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway-websocket/gateway-websocket.iml" filepath="$PROJECT_DIR$/gateway/gateway-websocket/gateway-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/grpc/grpc.iml" filepath="$PROJECT_DIR$/starters/grpc/grpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/grpc-test/grpc-test.iml" filepath="$PROJECT_DIR$/starters/grpc-test/grpc-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starters/starters.iml" filepath="$PROJECT_DIR$/starters/starters.iml" />
     </modules>
   </component>
 </project>

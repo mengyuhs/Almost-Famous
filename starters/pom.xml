@@ -14,5 +14,56 @@
     <groupId>com.noseparte.starters</groupId>
     <artifactId>starter-parent</artifactId>
     <packaging>pom</packaging>
-    
+
+
+    <modules>
+        <module>grpc</module>
+        <module>grpc-test</module>
+    </modules>
+
+    <properties>
+        <grpc.version>1.26.0</grpc.version>
+        <log4j2.version>2.9.1</log4j2.version>
+        <slf4j.version>1.7.30</slf4j.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>2.8.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hashids</groupId>
+                <artifactId>hashids</artifactId>
+                <version>1.0.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.noseparte.starters</groupId>
+                <artifactId>starter-slf4j-with-logback</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.noseparte.starters</groupId>
+                <artifactId>starter-grpc</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.noseparte.starters</groupId>
+                <artifactId>starter-grpc-test</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+        </dependencies>
+
+    </dependencyManagement>
+
+
+
 </project>

@@ -5,14 +5,33 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.noseparte</groupId>
-        <artifactId>Almost-Famous</artifactId>
-        <version>1.0.0-Release</version>
+        <groupId>com.noseparte.starters</groupId>
+        <artifactId>starter-parent</artifactId>
+        <version>${revision}</version>
+        <relativePath>../starters</relativePath>
     </parent>
 
-    <groupId>com.noseparte</groupId>
-    <artifactId>gateway</artifactId>
-    <version>1.0.0-Release</version>
+    <groupId>com.noseparte.gateway</groupId>
+    <artifactId>gateway-parent</artifactId>
+    <packaging>pom</packaging>
 
-    
+    <modules>
+        <module>gateway-websocket</module>
+    </modules>
+
+    <properties>
+        <netty.version>4.1.48.Final</netty.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
 </project>

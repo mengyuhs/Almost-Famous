@@ -2,39 +2,70 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for Almost-Home" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="famous-common" />
-        <module name="famous-match" />
-        <module name="famous-unique" />
-        <module name="famous-cloud" />
-        <module name="famous-login" />
-        <module name="famous-battle" />
-        <module name="famous-game" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/dagger/error/2.27/error-2.27.jar" />
+        </processorPath>
+        <module name="gateway-websocket" />
+        <module name="cluster" />
+        <module name="grpc-test" />
+        <module name="grpc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="afk" target="8" />
+      <module name="afk-parent" target="8" />
+      <module name="akka" target="8" />
+      <module name="akka-parent" target="8" />
       <module name="Almost-Famous" target="1.8" />
+      <module name="cluster" target="8" />
       <module name="famous-battle" target="1.8" />
       <module name="famous-cloud" target="1.8" />
       <module name="famous-common" target="1.8" />
+      <module name="famous-config" target="1.8" />
       <module name="famous-game" target="1.8" />
+      <module name="famous-gateway" target="1.8" />
       <module name="famous-login" target="1.8" />
       <module name="famous-match" target="1.8" />
+      <module name="famous-monitor" target="1.8" />
+      <module name="famous-robot" target="1.8" />
       <module name="famous-unique" target="1.8" />
+      <module name="famous-zuul" target="1.8" />
+      <module name="gateway" target="8" />
+      <module name="gateway-websocket" target="8" />
+      <module name="grpc" target="8" />
+      <module name="grpc-test" target="8" />
+      <module name="parent" target="8" />
+      <module name="starters" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="afk" options="-parameters" />
+      <module name="akka" options="-parameters" />
+      <module name="cluster" options="-parameters -Xlint -parameters" />
       <module name="famous-battle" options="-parameters" />
       <module name="famous-cloud" options="-parameters" />
       <module name="famous-common" options="-parameters" />
+      <module name="famous-config" options="-parameters" />
       <module name="famous-game" options="-parameters" />
+      <module name="famous-gateway" options="-parameters" />
       <module name="famous-login" options="-parameters" />
       <module name="famous-match" options="-parameters" />
+      <module name="famous-monitor" options="-parameters" />
+      <module name="famous-robot" options="-parameters" />
       <module name="famous-unique" options="-parameters" />
+      <module name="famous-zuul" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="gateway-websocket" options="-parameters -Xlint -parameters" />
+      <module name="grpc" options="-parameters -Xlint -parameters" />
+      <module name="grpc-test" options="-parameters -Xlint -parameters" />
+      <module name="parent" options="-parameters" />
+      <module name="starters" options="" />
     </option>
   </component>
 </project>
