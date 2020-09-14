@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.noseparte.gateway</groupId>
+        <groupId>com.lung.gateway</groupId>
         <artifactId>gateway-parent</artifactId>
         <version>${revision}</version>
         <relativePath>../</relativePath>
@@ -16,7 +16,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.noseparte.akka</groupId>
+            <groupId>com.lung.akka</groupId>
             <artifactId>akka-cluster</artifactId>
         </dependency>
         <dependency>

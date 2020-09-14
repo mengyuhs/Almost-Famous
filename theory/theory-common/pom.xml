@@ -5,23 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.lung.starters</groupId>
-        <artifactId>starter-parent</artifactId>
+        <groupId>com.lung.theory</groupId>
+        <artifactId>theory-parent</artifactId>
         <version>${revision}</version>
         <relativePath>../</relativePath>
     </parent>
 
-    <artifactId>starter-grpc-test</artifactId>
+    <artifactId>theory-common</artifactId>
     <packaging>jar</packaging>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>io.grpc</groupId>
-            <artifactId>grpc-testing</artifactId>
-            <version>${grpc.version}</version>
-        </dependency>
-
-    </dependencies>
 
 </project>

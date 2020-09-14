@@ -4,7 +4,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.noseparte</groupId>
+    <groupId>com.lung</groupId>
     <artifactId>Almost-Famous</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
@@ -46,7 +46,7 @@
                 <module>akka</module>
                 <module>gateway</module>
                 <module>starters</module>
-                <module>afk</module>
+                <module>theory</module>
             </modules>
         </profile>
     </profiles>
@@ -54,17 +54,17 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.noseparte.starters</groupId>
+                <groupId>com.lung.starters</groupId>
                 <artifactId>starter-grpc</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
-                <groupId>com.noseparte.starters</groupId>
+                <groupId>com.lung.starters</groupId>
                 <artifactId>starter-grpc-test</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
-                <groupId>com.noseparte.akka</groupId>
+                <groupId>com.lung.akka</groupId>
                 <artifactId>akka-cluster</artifactId>
                 <version>${revision}</version>
             </dependency>

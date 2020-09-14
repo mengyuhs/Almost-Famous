@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Almost-Famous.iml" filepath="$PROJECT_DIR$/.idea/Almost-Famous.iml" />
-      <module fileurl="file://$PROJECT_DIR$/afk/afk.iml" filepath="$PROJECT_DIR$/afk/afk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/afk/afk-parent.iml" filepath="$PROJECT_DIR$/afk/afk-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Almost-Famous.iml" filepath="$PROJECT_DIR$/Almost-Famous.iml" />
+      <module fileurl="file://$PROJECT_DIR$/theory/afk.iml" filepath="$PROJECT_DIR$/theory/afk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/theory/afk-parent.iml" filepath="$PROJECT_DIR$/theory/afk-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
       <module fileurl="file://$PROJECT_DIR$/akka/akka-parent.iml" filepath="$PROJECT_DIR$/akka/akka-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/akka/cluster/cluster.iml" filepath="$PROJECT_DIR$/akka/cluster/cluster.iml" />
@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/starters/grpc-test/grpc-test.iml" filepath="$PROJECT_DIR$/starters/grpc-test/grpc-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/starters/starters.iml" filepath="$PROJECT_DIR$/starters/starters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/theory/theory-common/theory-common.iml" filepath="$PROJECT_DIR$/theory/theory-common/theory-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/theory/theory-parent.iml" filepath="$PROJECT_DIR$/theory/theory-parent.iml" />
     </modules>
   </component>
 </project>

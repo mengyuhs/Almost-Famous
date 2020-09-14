@@ -5,15 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.noseparte.starters</groupId>
+        <groupId>com.lung.starters</groupId>
         <artifactId>starter-parent</artifactId>
         <version>${revision}</version>
         <relativePath>../starters</relativePath>
     </parent>
 
-    <groupId>com.noseparte.afk</groupId>
-    <artifactId>afk-parent</artifactId>
+    <groupId>com.lung.theory</groupId>
+    <artifactId>theory-parent</artifactId>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>theory-common</module>
+    </modules>
 
     <properties>
         <caffeine.version>2.8.1</caffeine.version>

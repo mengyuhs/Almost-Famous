@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.noseparte</groupId>
+        <groupId>com.lung</groupId>
         <artifactId>parent</artifactId>
         <version>${revision}</version>
         <relativePath>../parent</relativePath>
     </parent>
 
-    <groupId>com.noseparte.starters</groupId>
+    <groupId>com.lung.starters</groupId>
     <artifactId>starter-parent</artifactId>
     <packaging>pom</packaging>
 
@@ -43,19 +43,19 @@
             </dependency>
 
             <dependency>
-                <groupId>com.noseparte.starters</groupId>
+                <groupId>com.lung.starters</groupId>
                 <artifactId>starter-slf4j-with-logback</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.noseparte.starters</groupId>
+                <groupId>com.lung.starters</groupId>
                 <artifactId>starter-grpc</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.noseparte.starters</groupId>
+                <groupId>com.lung.starters</groupId>
                 <artifactId>starter-grpc-test</artifactId>
                 <version>${revision}</version>
             </dependency>

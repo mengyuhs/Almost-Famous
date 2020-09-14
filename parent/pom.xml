@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.noseparte</groupId>
+        <groupId>com.lung</groupId>
         <artifactId>Almost-Famous</artifactId>
         <version>${revision}</version>
         <relativePath>../</relativePath>
@@ -26,6 +26,8 @@
 
         <docker.image.name>${project.artifactId}</docker.image.name>
 
+
+<!--        <os.detected.classifier>windows-x86_64</os.detected.classifier>-->
         <dagger.version>2.27</dagger.version>
         <guava.version>29.0-jre</guava.version>
         <spring.boot.version>2.2.6.RELEASE</spring.boot.version>

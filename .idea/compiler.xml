@@ -11,6 +11,7 @@
           <entry name="$MAVEN_REPOSITORY$/com/google/dagger/error/2.27/error-2.27.jar" />
         </processorPath>
         <module name="gateway-websocket" />
+        <module name="theory-common" />
         <module name="cluster" />
         <module name="grpc-test" />
         <module name="grpc" />
@@ -41,6 +42,8 @@
       <module name="grpc-test" target="8" />
       <module name="parent" target="8" />
       <module name="starters" target="8" />
+      <module name="theory-common" target="8" />
+      <module name="theory-parent" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -66,6 +69,7 @@
       <module name="grpc-test" options="-parameters -Xlint -parameters" />
       <module name="parent" options="-parameters" />
       <module name="starters" options="" />
+      <module name="theory-common" options="-parameters -Xlint -parameters" />
     </option>
   </component>
 </project>

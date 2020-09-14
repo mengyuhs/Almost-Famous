@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.noseparte.starters</groupId>
+        <groupId>com.lung.starters</groupId>
         <artifactId>starter-parent</artifactId>
         <version>${revision}</version>
         <relativePath>../starters</relativePath>
     </parent>
 
-    <groupId>com.noseparte.gateway</groupId>
+    <groupId>com.lung.gateway</groupId>
     <artifactId>gateway-parent</artifactId>
     <packaging>pom</packaging>
 

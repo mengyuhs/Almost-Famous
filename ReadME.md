@@ -61,8 +61,8 @@ Root project 'Almost-Famous'
 1. 使用git下载代码 git clone https://github.com/AwakenCN/Almost-Famous.git;
 2. 将代码导入带有maven插件的IDE(推荐使用IntelliJ IDEA);
 3. 保证本地安装Maven、mongodb、redis等服务, 以及lombok插件;
-4. 启动Cloud服务端，入口为FamousCloudApplication类;
-5. 启动Unique服务端，入口为RpcServer类;
+4. 启动Unique服务端，入口为RpcServer类;
+5. 启动Cloud服务端，入口为FamousCloudApplication类;
 6. 启动Login服务端，入口为FamousLoginApplication类;
 7. 启动Game服务端，入口为FamousGameApplication类;
 7. 启动Match服务端，入口为FamousMatchApplication类;
@@ -72,6 +72,10 @@ Root project 'Almost-Famous'
 
 ![Eureka服务注册中心](https://noseparte-1256862255.cos.ap-chengdu.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191217172829.png)
 
+## mutilate branch(分支)
+
+1. standalone (springboot 单机版)
+
 ## 一起交流
 
     如果您发现bug，或者有任何疑问，请提交issue !!
@@ -80,3 +84,8 @@ Root project 'Almost-Famous'
 * [QQ群 670252084](https://jq.qq.com/?_wv=1027&k=5gXmfE2)
 
  (Chinese ver.) 持续更新中，保持关注。
+ 
+ ## 目前有俩个版本计划：
+ 
+ - spring-cloud 微服务
+ - AKKA Cluster 
